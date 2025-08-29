@@ -1,0 +1,248 @@
+.audio-section {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.motivation-section {
+  margin-top: 32px;
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motivation-list {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.motivation-card {
+  background: #fff;
+  color: #222;
+  padding: 18px 12px 12px 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(33,147,176,0.10);
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.motivation-card p {
+  margin-top: 12px;
+  font-size: 1.08em;
+  text-align: center;
+  color: #2193b0;
+  font-weight: 500;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background: linear-gradient(135deg, #6dd5ed, #2193b0);
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App-header {
+  background: rgba(40, 44, 52, 0.97);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.card {
+  background: #fff;
+  color: #222;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+#lang-select {
+  font-size: 1.1em;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #2193b0;
+  background: #f7f7f7;
+  color: #222;
+}
+
+.news-section {
+  background: #f7f7f7;
+  color: #222;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 28px;
+  width: 90%;
+  max-width: 700px;
+  text-align: left;
+}
+
+.news-section h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 1.3em;
+  color: #2193b0;
+}
+
+.news-text {
+  white-space: pre-wrap;
+  font-size: 1.15em;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.listen-btn {
+  background: linear-gradient(90deg, #2193b0, #6dd5ed);
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+  box-shadow: 0 2px 8px rgba(33,147,176,0.10);
+}
+.listen-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.audio-section {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+  .news-section {
+    padding: 14px;
+    max-width: 98vw;
+  }
+  .card {
+    flex-direction: column;
+    gap: 8px;
+    padding: 14px 10px;
+  }
+}
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.news-card {
+  background: #f7f7f7;
+  color: #222;
+  padding: 24px 18px 18px 18px;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+  width: 360px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s;
+}
+.news-card:hover {
+  box-shadow: 0 4px 24px rgba(33,147,176,0.18);
+}
+.news-card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.25em;
+  font-weight: 600;
+}
+.news-card p {
+  font-size: 1.05em;
+  margin-bottom: 14px;
+  text-align: left;
+}
+.audio-section {
+  width: 100%;
+  margin-top: 8px;
+
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #2193b0;
+}
+
+.news-section {
+  background: #f7f7f7;
+  color: #222;
+.news-section {
+  background: #f7f7f7;
+  color: #222;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+  width: 90%;
+  max-width: 700px;
+}
+
+.news-text {
+  white-space: pre-wrap;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+  width: 90%;
+  max-width: 700px;
+}
+
+.news-text {
+  white-space: pre-wrap;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.listen-btn {
+  background: linear-gradient(90deg, #2193b0, #6dd5ed);
+  color: #fff;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+}
+.listen-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.audio-section {
+  margin-top: 10px;
+}
