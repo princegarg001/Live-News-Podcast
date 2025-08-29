@@ -1,4 +1,4 @@
-📰 Voice News Reader
+📰 Live-News-Podcast
 
 A modern React + Node.js application that fetches the latest news and reads it aloud using Text-to-Speech (TTS) powered by the Murf API.
 The app includes a clean UI dashboard, WebSocket-based live toggle, and an optional latest news video player for a complete multimedia experience.
